@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(223, 223, 211);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contain {
+    max-width: 1000px;
+    background-color:darkseagreen;
+    margin: 0 auto;
+    padding: 20px;
+}
+.image {
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    float: left;
+}
+.header-bio {
+    float: left;
+    padding: 30px;
+}
+.header-contact {
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    font-weight: bold;
+}
+h1,h2,h3,h4,h5,h6,a {
+    color: teal;
+}
+p {
+    text-align: justify;
+}
+.header-contact a:hover {
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear {
+    clear: both;
+}
+hr {
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/* ---------------------
+    Personal Information
+    -------------------- */
+    .personal-section {
+    }
+    .left-div {
+        width: 30%;
+        float: left;
+    }
+    .right-div {
+        width: 70%;
+        float: left;
+    }
+    .common-hr {
+        border: 1px solid black;
+        border-bottom: none;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .middle-div {
+        width: 40%;
+        float: left;
+    }
+
+    /* ---------------------
+    Personal Information
+    -------------------- */
+    .edu-template-left {
+        width: 45%;
+        float: left;
+    }
+    .edu-template-right {
+        width: 45%;
+        float: right;
+    }
+
+    /* ---------------------
+    Footer Area
+    -------------------- */
+    .footer-area {
+        background-color: black;
+        text-align: center;
+        padding: 10px;
+    }
+    .footer-area a {
+        text-decoration: none;
+        color: #ffffff;
+        margin: 20px;
+    }
+    .footer-area p {
+        color: #ffffff;
+        margin-top: 20px;
+        text-align: center;
+    }
